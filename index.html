@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head role="banner">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
@@ -9,21 +9,22 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap" rel="stylesheet">
   <title>Frontend Mentor | QR code component</title>
+</head>
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
     body{
       height: 100vh;
-      background-color: hsl(228, 45%, 80%);
+      background-color: hsl(212, 45%, 89%);
       align-items: center;
-      display: flex;
+      display: flex; 
       flex-direction: column;
       justify-content: center;
     }
     .container{
       width: 90%;
       height: 90%;
-      background-color: hsl(228, 45%, 80%);
+      background-color: hsl(212, 45%, 89%);
       align-items: center;
       display: flex;
       flex-direction: column;
@@ -40,7 +41,6 @@
       justify-content: center;
       text-align: center;
       font-family: "Outfit", sans-serif;
-      font-size: 15px;
     }
     .qrimg{
       height: 60%;
@@ -49,9 +49,12 @@
     }
     .improve{
       font-weight: 700;
+      color: hsl(218, 44%, 22%);
     }
     .scan{
       font-weight: 400;
+      font-size: 15px;
+      color: hsl(216, 15%, 48%);
     }
     @media (max-width: 375px) {
       .container{
@@ -68,7 +71,7 @@
       }
 }
   </style>
-</head>
+
 <body>  
   <div class="container">
     <div class="qrcontainer">
@@ -78,9 +81,9 @@
     </div>
 
   </div>
-  <div class="attribution">
+  <footer role="contentinfo" class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Mohammed Ali</a>.
-  </div>
+  </footer>
 </body>
 </html>
