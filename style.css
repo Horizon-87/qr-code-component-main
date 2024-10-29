@@ -19,7 +19,7 @@
       
     }
     .qrcontainer{
-      height: 55%;
+      height: 58%;
       width: 25%;
       background-color: white;
       border-radius: 10px;
@@ -38,7 +38,7 @@
       margin: 6%;
     }
     .improve{
-      font-weight: 700;
+      font-weight: bold;
       color: hsl(218, 44%, 22%);
     }
     .scan{
