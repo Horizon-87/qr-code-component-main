@@ -6,78 +6,20 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap" rel="stylesheet">
   <title>Frontend Mentor | QR code component</title>
+  <link rel="stylesheet" href="./style.css">
 </head>
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-    body{
-      height: 100vh;
-      background-color: hsl(212, 45%, 89%);
-      align-items: center;
-      display: flex; 
-      flex-direction: column;
-      justify-content: center;
-    }
-    .container{
-      width: 90%;
-      height: 90%;
-      background-color: hsl(212, 45%, 89%);
-      align-items: center;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      
-    }
-    .qrcontainer{
-      height: 60%;
-      width: 20%;
-      background-color: white;
-      border-radius: 10px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      text-align: center;
-      font-family: "Outfit", sans-serif;
-    }
-    .qrimg{
-      height: 60%;
-      border-radius: 10px;
-      margin: 5%;
-    }
-    .improve{
-      font-weight: 700;
-      color: hsl(218, 44%, 22%);
-    }
-    .scan{
-      font-weight: 400;
-      font-size: 15px;
-      color: hsl(216, 15%, 48%);
-    }
-    @media (max-width: 375px) {
-      .container{
-        height: 80%;
-      }
-    .qrcontainer {
-      width: 75%;
-      height: 60%;
-      padding: 10px;
-    }
-    .qrimg{
-        height: 45%;
-        margin: 3%;
-      }
-}
-  </style>
 
 <body>  
   <div class="container">
     <div class="qrcontainer">
       <img class="qrimg" src="./images/image-qr-code.png" alt="">
-      <p class="improve">Improve your front-end skills by building projects</p>
-      <p class="scan">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+      <div class="textcontainer">
+        <p class="improve">Improve your front-end skills by building projects</p>
+        <p class="scan">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+      </div>
     </div>
 
   </div>
